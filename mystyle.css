@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background: -webkit-linear-gradient(right, #d1a17a, #82b3eb);
+    font-family: sans-serif
+}
+
+#MyStudentCard{
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+video{
+    width: 50%;
+    border: solid white;
+    border-radius: 10%;
+    padding: 3px;
+}
+
+.paragraph{
+    text-align: left;
+}
+
+fieldset{
+    border: solid 4px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px;
+    margin-bottom: 40px;
+}
+td, th{
+    border: solid 2px;
+}
+
+details{
+    margin-bottom: 400px;
+}
