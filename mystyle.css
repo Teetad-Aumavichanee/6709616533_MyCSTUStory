@@ -9,6 +9,28 @@ body{
     border: solid 2px;
 }
 
+#future{
+    border: solid;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: gainsboro;
+}
+
+.paragraph{
+    text-align: left;
+}
+
+.page{
+    border: solid;
+    border-radius: 10px;
+    background-color: grey;
+    border-color: black;
+    color: black;
+    margin: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+
 video{
     width: 50%;
     border: solid white;
@@ -16,19 +38,17 @@ video{
     padding: 3px;
 }
 
-.paragraph{
-    text-align: left;
-}
-
 fieldset{
     border: solid 4px;
 }
+
 table{
     margin-left: auto;
     margin-right: auto;
     border: solid 2px;
     margin-bottom: 40px;
 }
+
 td, th{
     border: solid 2px;
 }
