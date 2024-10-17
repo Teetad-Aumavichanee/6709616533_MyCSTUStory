@@ -4,6 +4,34 @@ body{
     font-family: sans-serif
 }
 
+header
+{
+    width: 100%;
+}
+
+nav
+{
+
+}
+
+content
+{
+
+}
+
+article
+{
+
+}
+
+footer
+{
+    width: 100%;
+    padding: 10% 0;
+    background-color: rgba(240, 248, 255, 0.8);
+}
+
+
 #MyStudentCard{
     border-radius: 5px;
     border: solid 2px;
