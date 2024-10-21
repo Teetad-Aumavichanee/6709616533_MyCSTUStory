@@ -1,5 +1,7 @@
 body{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     background: -webkit-linear-gradient(right, #d1a17a, #82b3eb);
     font-family: sans-serif
 }
@@ -8,13 +10,35 @@ header
 {
     width: 100%;
     padding: 40px 0;
+    text-align: center;
 }
 
 footer
 {
     width: 100%;
-    padding: 10% 0;
+    padding: 40px 0;
     background-color: rgba(240, 248, 255, 0.8);
+}
+
+main
+{
+    border: solid 2px;
+    background: #82b3eb;
+    width: 60%;
+}
+
+aside
+{
+    border: solid 2px;
+    background: #82b3eb;
+    width: 20%;
+}
+
+nav
+{
+    border: solid 2px;
+    background: #82b3eb;
+    width: 20%;
 }
 
 
