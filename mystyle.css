@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
     text-align: center;
     background: -webkit-linear-gradient(right, #d1a17a, #82b3eb);
     font-family: sans-serif
@@ -8,6 +11,7 @@ header
 {
     width: 100%;
     padding: 40px 0;
+    background-color: darkorange;
 }
 
 footer
@@ -17,7 +21,17 @@ footer
     background-color: rgba(240, 248, 255, 0.8);
 }
 
+nav
+{
+    width: 20%;
+    background-color: #999999;
+}
 
+main
+{
+    width: 80%;
+    background-color: #8a5757;
+}
 #MyStudentCard{
     border-radius: 5px;
     border: solid 2px;
