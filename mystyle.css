@@ -4,34 +4,42 @@ body{
     height: 100vh;
     text-align: center;
     background: -webkit-linear-gradient(right, #d1a17a, #82b3eb);
-    font-family: sans-serif
+    font-family: sans-serif;
+    gap: 20px;
 }
 
 header
 {
     width: 100%;
     padding: 40px 0;
-    background-color: darkorange;
+    background-color: rgba(65, 194, 110, 0.3);
+    border: solid black;
+    border-radius: 25px;
 }
 
 footer
 {
     width: 100%;
     padding: 10% 0;
-    background-color: rgba(240, 248, 255, 0.8);
 }
 
 nav
 {
     width: 20%;
-    background-color: #999999;
+    background-color: rgb(142, 142, 142, 0.6);
+    border: solid black;
+    border-radius: 25px;
 }
 
 main
 {
-    width: 80%;
-    background-color: #8a5757;
+    width: calc(80% - 100px);
+    background-color: rgba(121, 94, 35, 0.3);
+    padding: 30px;
+    border: solid black;
+    border-radius: 25px;
 }
+
 #MyStudentCard{
     border-radius: 5px;
     border: solid 2px;
@@ -82,6 +90,5 @@ td, th{
 }
 
 details{
-    margin-bottom: 400px;
     margin-top: 20px;
 }
