@@ -1,7 +1,6 @@
 body{
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
     text-align: center;
     background: -webkit-linear-gradient(right, #d1a17a, #82b3eb);
     font-family: sans-serif;
@@ -38,6 +37,28 @@ main
     padding: 30px;
     border: solid black;
     border-radius: 25px;
+}
+
+@media (max-width: 600px)
+{
+    body
+    {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    nav, main
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    main
+    {
+        padding: 15px; 
+    }
+
 }
 
 #MyStudentCard{
