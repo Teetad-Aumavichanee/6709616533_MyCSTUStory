@@ -39,7 +39,7 @@ main
     border-radius: 25px;
 }
 
-@media (max-width: 600px)
+@media (max-width: 800px)
 {
     body
     {
@@ -114,4 +114,9 @@ td, th{
 
 details{
     margin-top: 20px;
+}
+
+details img {
+    max-width: 100%;
+    height: auto;
 }
